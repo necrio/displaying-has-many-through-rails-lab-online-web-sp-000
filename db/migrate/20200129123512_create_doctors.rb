@@ -4,7 +4,7 @@ class CreateDoctors < ActiveRecord::Migration[5.0]
       t.string :department
       t.string :name
 
-      t.timestamps
+       t.timestamps null: false
     end
   end
 end
