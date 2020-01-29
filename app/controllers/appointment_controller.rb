@@ -1,4 +1,4 @@
-class AppointmentController < ApplicationController
+class AppointmentsController < ApplicationController
 
   def show
     @appointment = Appointment.fnd(params[:id])
